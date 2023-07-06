@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio4.jpg'
-import IMG2 from '../../assets/portfolio6.png'
+import IMG1 from '../../assets/portfolio3.jpg'
+import IMG2 from '../../assets/portfolio5.jpg'
 import IMG3 from '../../assets/portfolio1.jpg'
 
 const Portfolio = () => {
@@ -22,22 +22,22 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item' >
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG2} alt="Game project" />
           </div>
-          <h3>DreamJob</h3>
+          <h3>GameChanger+</h3>
           <div className="portfolio__item-cta">
-           <a href="https://github.com/trinidadcerri/traum-job" className='btn' target="_blank">GitHub</a>
-           <a href="https://dream-job-website.herokuapp.com/" className='btn btn-primary' target="_blank">Live Demo</a>
+           <a href="https://github.com/giacomo-dantonio/game-changer-website" className='btn' target="_blank">GitHub</a>
+           <a href="https://game-changer-website.vercel.app/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item' >
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG3} alt="SheCodes" />
           </div>
-          <h3>DreamJob</h3>
+          <h3>SheCodes</h3>
           <div className="portfolio__item-cta">
-           <a href="https://github.com/trinidadcerri/traum-job" className='btn' target="_blank">GitHub</a>
-           <a href="https://dream-job-website.herokuapp.com/" className='btn btn-primary' target="_blank">Live Demo</a>
+           <a href="https://github.com/Yuzya2022/Porfolio-project" className='btn' target="_blank">GitHub</a>
+           <a href="https://tangerine-mandazi-ea6acc.netlify.app/work.html" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
       </div>
