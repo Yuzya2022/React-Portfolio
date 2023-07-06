@@ -15,24 +15,30 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>DreamJob</h3>
-          <a href="https://github.com/trinidadcerri/traum-job" className='btn' target="_blank">GitHub</a>
-          <a href="https://dream-job-website.herokuapp.com/" className='btn btn-primary' target="_blank">Live Demo</a>
+          <div className="portfolio__item-cta">
+           <a href="https://github.com/trinidadcerri/traum-job" className='btn' target="_blank">GitHub</a>
+           <a href="https://dream-job-website.herokuapp.com/" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
         </article>
         <article className='portfolio__item' >
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>DreamJob</h3>
-          <a href="https://github.com/trinidadcerri/traum-job" className='btn' target="_blank">GitHub</a>
-          <a href="https://dream-job-website.herokuapp.com/" className='btn btn-primary' target="_blank">Live Demo</a>
+          <div className="portfolio__item-cta">
+           <a href="https://github.com/trinidadcerri/traum-job" className='btn' target="_blank">GitHub</a>
+           <a href="https://dream-job-website.herokuapp.com/" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
         </article>
         <article className='portfolio__item' >
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>DreamJob</h3>
-          <a href="https://github.com/trinidadcerri/traum-job" className='btn' target="_blank">GitHub</a>
-          <a href="https://dream-job-website.herokuapp.com/" className='btn btn-primary' target="_blank">Live Demo</a>
+          <div className="portfolio__item-cta">
+           <a href="https://github.com/trinidadcerri/traum-job" className='btn' target="_blank">GitHub</a>
+           <a href="https://dream-job-website.herokuapp.com/" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
         </article>
       </div>
     </section>
