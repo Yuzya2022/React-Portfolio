@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/avatar1.jpg'
+import ME from '../../assets/avatar10.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -36,9 +36,9 @@ const About = () => {
             </article>
           </div>
           <p>
-          Motivated professional with a background in retail marketing and a strong interest in tech.
-          I work as Teaching Assistant after completing a intense web development Bootcamp,
-          where I gained hands-on experience with programming languages and building applications..
+          Motivated professional with a background in retail marketing and a strong interest in Tech.
+          I work as Teaching Assistant after completing a intense Web Development Bootcamp,
+          where I gained hands-on experience with programming languages and building applications.
           </p>
 
           <a href="#contact" className='btn btn-primary' >Let's Talk</a>
