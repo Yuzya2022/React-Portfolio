@@ -1,9 +1,8 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import { Icon } from 'react-icons-kit';
-import { messageSquare } from 'react-icons-kit/feather';
 import {BsWhatsapp} from 'react-icons/bs'
+import { AiOutlineMessage } from 'react-icons/ai';
 
 const Contact = () => {
   return (
@@ -13,19 +12,19 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail/>
+            <MdOutlineEmail className='contact__option-icon '/>
             <h4>Email</h4>
             <h5>iuzvyshyna.olga@gmail.com</h5>
             <a href="mailto:iuzvyshyna.olga@gmail.com" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
-            <Icon icon={messageSquare} />
+          <AiOutlineMessage className='contact__option-icon '/>
             <h4>LinkedIn</h4>
             <h5>Olga Iuzvyshyna</h5>
             <a href="https://www.linkedin.com/in/olga-iuzvyshyna/" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
-            <BsWhatsapp/>
+            <BsWhatsapp className='contact__option-icon '/>
             <h4>WhatsApp</h4>
             <h5>+491628904332</h5>
             <a href="https://wa.me/491628904332" target="_blank">Send a message</a>
