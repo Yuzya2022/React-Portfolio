@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio3.jpg'
 import IMG2 from '../../assets/portfolio5.jpg'
 import IMG3 from '../../assets/portfolio1.jpg'
+import IMG4 from '../../assets/portfolio8.jpg'
 
 const Portfolio = () => {
   return (
@@ -38,6 +39,16 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
            <a href="https://github.com/Yuzya2022/Porfolio-project" className='btn' target="_blank">GitHub</a>
            <a href="https://tangerine-mandazi-ea6acc.netlify.app/work.html" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__item' >
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="AI_Summarizer" />
+          </div>
+          <h3>AI Article Summarizer</h3>
+          <div className="portfolio__item-cta">
+           <a href="https://github.com/Yuzya2022/Article-summarizer-" className='btn' target="_blank">GitHub</a>
+           <a href="https://singular-fudge-422eed.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
       </div>
