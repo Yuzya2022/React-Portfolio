@@ -55,7 +55,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item' >
           <div className="portfolio__item-image">
-            <img src={IMG5} alt="AI_Image" height="250px" />
+            <img src={IMG5} alt="AI_Image"/>
           </div>
           <h3>My Image Generator</h3>
           <div className="portfolio__item-cta">
