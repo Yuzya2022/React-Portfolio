@@ -4,6 +4,8 @@ import IMG1 from '../../assets/portfolio3.jpg'
 import IMG2 from '../../assets/portfolio5.jpg'
 import IMG3 from '../../assets/portfolio1.jpg'
 import IMG4 from '../../assets/portfolio8.jpg'
+import IMG5 from '../../assets/portfolio9.png'
+
 
 const Portfolio = () => {
   return (
@@ -49,6 +51,16 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
            <a href="https://github.com/Yuzya2022/Article-summarizer-" className='btn' target="_blank">GitHub</a>
            <a href="https://singular-fudge-422eed.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio__item' >
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="AI_Image" height="250px" />
+          </div>
+          <h3>My Image Generator</h3>
+          <div className="portfolio__item-cta">
+           <a href="https://github.com/Yuzya2022/ImageAI" className='btn' target="_blank">GitHub</a>
+           <a href="https://chimerical-nasturtium-d48b3b.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
       </div>
